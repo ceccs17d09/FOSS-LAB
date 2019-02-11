@@ -1,0 +1,62 @@
+Script started on Monday 11 February 2019 03:40:29 PM IST
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat file.txt
+cat: file.txt: No such file or directory
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat<[K>fil.txt
+who will cry when u die
+robin shsrma
+^Z
+[1]+  Stopped                 cat > fil.txt
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat [K>tros.txt
+god of little tghings      hings
+arundhathi ray  oy^[[B     y77
+^Z
+[2]+  Stopped                 cat > tros.txt
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat fil.txt
+who will cry when u die
+robin shsrma
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat tros.y[Ktxt
+god of little things
+arundhathi roy77
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat[K[K[Kcat tros.txt[1Pfil.txt -n
+     1	who will cry when u die
+     2	robin shsrma
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat fil.txt -n[2Ptros.txt-[K -n
+     1	god of little things
+     2	arundhathi roy77
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ paste cat >[K[K>fil.txt[K[K[K[K[K[K[K[K[K[K[Kfil.txt ttr\\[K[K[K[Kros/[K.txt
+who will cry when u die	god of little things
+robin shsrma	arundhathi roy77
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ r[Kgrep cry fil.txt
+who will [01;31m[Kcry[m[K when u die
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ grep little tros.txt
+god of [01;31m[Klittle[m[K things
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ grep w *.txt -c
+[35m[Kfil.txt[m[K[36m[K:[m[K1
+[35m[Ktros.txt[m[K[36m[K:[m[K0
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ grep will *.txt -c
+[35m[Kfil.txt[m[K[36m[K:[m[K1
+[35m[Ktros.txt[m[K[36m[K:[m[K0
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ grep l *.txt -c
+[35m[Kfil.txt[m[K[36m[K:[m[K1
+[35m[Ktros.txt[m[K[36m[K:[m[K1
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ grep a *.txt -n
+[35m[Kfil.txt[m[K[36m[K:[m[K[32m[K2[m[K[36m[K:[m[Krobin shsrm[01;31m[Ka[m[K
+[35m[Ktros.txt[m[K[36m[K:[m[K[32m[K2[m[K[36m[K:[m[K[01;31m[Ka[m[Krundh[01;31m[Ka[m[Kthi roy77
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         fil.txt  [01;34mPictures[0m  [01;34mTemplates[0m  typescript
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m    [01;34mPublic[0m    tros.txt   [01;34mVideos[0m
+]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cd Desktop
+]0;s4db1@ceclab1-Veriton-M680G: ~/Desktop[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~/Desktop[00m$ ls
+result_CHN.txt
+]0;s4db1@ceclab1-Veriton-M680G: ~/Desktop[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~/Desktop[00m$ ls
+fil.txt  result_CHN.txt  tros.txt  typescript
+]0;s4db1@ceclab1-Veriton-M680G: ~/Desktop[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~/Desktop[00m$ ls -lt
+total 32
+-rw-rw-r-- 1 s4db1 s4db1    38 Feb 11 15:43 tros.txt
+-rw-rw-r-- 1 s4db1 s4db1    37 Feb 11 15:42 fil.txt
+-rw-rw-r-- 1 s4db1 s4db1     0 Feb 11 15:40 typescript
+-rw-rw-r-- 1 s4db1 s4db1 24357 Feb 11 15:32 result_CHN.txt
+]0;s4db1@ceclab1-Veriton-M680G: ~/Desktop[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~/Desktop[00m$ ls -ltr
+total 32
+-rw-rw-r-- 1 s4db1 s4db1 24357 Feb 11 15:32 result_CHN.txt
+-rw-rw-r--
