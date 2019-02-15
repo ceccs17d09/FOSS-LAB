@@ -1,4 +1,4 @@
-Script started on Monday 11 February 2019 03:40:29 PM IST
+Script started 
 ]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat file.txt
 cat: file.txt: No such file or directory
 ]0;s4db1@ceclab1-Veriton-M680G: ~[01;32ms4db1@ceclab1-Veriton-M680G[00m:[01;34m~[00m$ cat<[K>fil.txt
