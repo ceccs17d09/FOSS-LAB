@@ -1,6 +1,4 @@
 Script started 
-s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton- cat file.txt
-
 s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton- cat<[K>fil.txt
 who will cry when u die
 robin shsrma
