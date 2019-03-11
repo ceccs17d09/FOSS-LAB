@@ -1,0 +1,62 @@
+Script started 
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton- cat file.txt
+
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton- cat<[K>fil.txt
+who will cry when u die
+robin shsrma
+^Z
+[1]+  Stopped                 cat > fil.txt
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton-cat [K>tros.txt
+god of little tghings      hings
+arundhathi ray  oy^[[B     y77
+^Z
+[2]+  Stopped                 cat > tros.txt
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton-at fil.txt
+who will cry when u die
+robin shsrma
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton- cat tros.y[Ktxt
+god of little things
+arundhathi roy77
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton-M680 cat[K[K[Kcat tros.txt[1Pfil.txt -n
+     1	who will cry when u die
+     2	robin shsrma
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton-M680$ cat fil.txt -n[2Ptros.txt-[K -n
+     1	god of little things
+     2	arundhathi roy77
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-M680G[00m$ paste cat >[K[K>fil.txt[K[K[K[K[K[K[K[K[K[K[Kfil.txt ttr\\[K[K[K[Kros/[K.txt
+who will cry when u die	god of little things
+robin shsrma	arundhathi roy77
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton-M680[Kgrep cry fil.txt
+who will [Kcry[K when u die
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-$ grep little tros.txt
+god of [Klittl[K things
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-M680G grep w *.txt -c
+[Kfil.txt
+[Ktros.txt[K[K:[m[K0
+s4db1@ceclab1-Veriton-M680G: s4db1@ceclab1-Veriton-$ grep will *.txt -c
+[Kfil.txt[m[K[[K:[K1
+[Ktros.txt[m[K[36m[K:[m[K0
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-M680G$ grep l *.txt -c
+[Kfil.txt[m[K[36m[K:[m[K1
+[Ktros.txt[m[K[36m[K:[m[
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-M680$ grep a *.txt -n
+[Kfil.txt[m[K[36m[K:[m[K[32m[K2[m[K[36m[K:[m[Krobin shsrm[01;31m[Ka[m[K
+[Ktros.txt[m[K[36m[K:[m[K[32m[K2[m[K[36m[K:[m[K[01;31m[Ka[m[Krundh[Kthi roy77
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-M680G$ ls
+[01;34mDesktop[0m    Downloads[0m         fil.txt  Pictures[0m  Templates  typescript
+Documents  examples.desktop     tros.txt   
+s4db1@ceclab1-Veriton-M680G: ~s4db1@ceclab1-Veriton-M680G$ cd Desktop
+s4db1@ceclab1-Veriton-M680G: ~/Desktop s4db1@ceclab1-Veriton-M680G/Desktop$ ls
+result_CHN.txt
+s4db1@ceclab1-Veriton-M680G: ~/Desktop s4db1@ceclab1-Veriton-M680G/Desktop$ ls
+fil.txt  result_CHN.txt  tros.txt  typescript
+s4db1@ceclab1-Veriton-M680G: ~/Desktop[01;32ms4db1@ceclab1-Veriton-M680G ~/Desktop $ ls -lt
+total 32
+-rw-rw-r-- 1 s4db1 s4db1    38 Feb 11 15:43 tros.txt
+-rw-rw-r-- 1 s4db1 s4db1    37 Feb 11 15:42 fil.txt
+-rw-rw-r-- 1 s4db1 s4db1     0 Feb 11 15:40 typescript
+-rw-rw-r-- 1 s4db1 s4db1 24357 Feb 11 15:32 result_CHN.txt
+s4db1@ceclab1-Veriton-M680G: ~/Desktop s4db1@ceclab1-Veriton-M680G/Desktop$ ls -ltr
+total 32
+-rw-rw-r-- 1 s4db1 s4db1 24357 Feb 11 15:32 result_CHN.txt
+-rw-rw-r--
